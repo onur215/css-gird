@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 300px 100px;
+    grid-template-rows: 100px 300px 100px;
+}
+
+.content{
+    border: 2px solid;
+}
+
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+}
